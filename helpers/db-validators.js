@@ -44,8 +44,9 @@ const coleccionesPermitidas = (coleccion = '', colecciones =[]) => {
   if(!incluida) {
     throw new Error (` La coleccion ${coleccion} no es permitida, ${colecciones}`);
 
-    return true;
+   
   }
+  return true;
 }
 
 module.exports = {
